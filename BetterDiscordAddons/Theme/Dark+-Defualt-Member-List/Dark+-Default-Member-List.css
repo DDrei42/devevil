@@ -1,28 +1,11 @@
-/*
- ________  ________  ________  ___  __    ________  ___       ___  ___  ________                         
-|\   ___ \|\   __  \|\   __  \|\  \|\  \ |\   __  \|\  \     |\  \|\  \|\   ____\                        
-\ \  \_|\ \ \  \|\  \ \  \|\  \ \  \/  /|\ \  \|\  \ \  \    \ \  \\\  \ \  \___|_                       
- \ \  \ \\ \ \   __  \ \   _  _\ \   ___  \ \   ____\ \  \    \ \  \\\  \ \_____  \                      
-  \ \  \_\\ \ \  \ \  \ \  \\  \\ \  \\ \  \ \  \___|\ \  \____\ \  \\\  \|____|\  \                     
-   \ \_______\ \__\ \__\ \__\\ _\\ \__\\ \__\ \__\    \ \_______\ \_______\____\_\  \                    
-    \|_______|\|__|\|__|\|__|\|__|\|__| \|__|\|__|     \|_______|\|_______|\_________\                   
-                                                                          \|_________|                                                                                                                    
- ________      ___    ___      ________  _______   ___      ___ _______   ___      ___ ___  ___          
-|\   __  \    |\  \  /  /|    |\   ___ \|\  ___ \ |\  \    /  /|\  ___ \ |\  \    /  /|\  \|\  \         
-\ \  \|\ /_   \ \  \/  / /    \ \  \_|\ \ \   __/|\ \  \  /  / | \   __/|\ \  \  /  / | \  \ \  \        
- \ \   __  \   \ \    / /      \ \  \ \\ \ \  \_|/_\ \  \/  / / \ \  \_|/_\ \  \/  / / \ \  \ \  \       
-  \ \  \|\  \   \/  /  /        \ \  \_\\ \ \  \_|\ \ \    / /   \ \  \_|\ \ \    / /   \ \  \ \  \____  
-   \ \_______\__/  / /           \ \_______\ \_______\ \__/ /     \ \_______\ \__/ /     \ \__\ \_______\
-    \|_______|\___/ /             \|_______|\|_______|\|__|/       \|_______|\|__|/       \|__|\|_______|
-             \|___|/                                                                                     
-*/
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark%2B-Defualt-Member-List/Dark%2B-Default-Member-List.css');
 
 :root {
   --darkplus-bg: #212121;
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #bb86fc;
   --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png)
 }
 
 .bg-1QIAus,
@@ -212,7 +195,7 @@
   .content-1gYQeQ
   .mainContent-20q_Hp
   .channelName-3KPsGw {
-  color: var(--darkplus-links);
+    color: var(--darkplus-links);
 }
 
 .metadataIcon-3QMhu9 path {
@@ -346,14 +329,13 @@
   color: var(--darkplus-sec);
 }
 
-.homeIcon-r0w4ny path {
-  fill: transparent;
-}
+.homeIcon-r0w4ny path {fill: transparent}
 .homeIcon-r0w4ny {
-  background: var(--darkplus-home-icon) center/cover no-repeat;
-  min-width: 50px;
-  min-height: 50px;
+background: var(--darkplus-home-icon) center/cover no-repeat;
+min-width: 50px;
+min-height: 50px;
 }
+
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
   color: var(--darkplus-links);
@@ -385,34 +367,11 @@
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
-.membersWrap-3NUR2t {
-  min-width: unset;
-}
-.membersWrap-3NUR2t .members-3WRCEx {
-  max-width: 65px;
-  min-width: 65px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-.membersWrap-3NUR2t .members-3WRCEx:hover {
-  max-width: 240px;
-  min-width: 240px;
-}
-.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9:not(:hover) {
-  padding-top: 10px;
+
+.members-3WRCEx, .members-3WRCEx>div {
   background-color: var(--darkplus-bg);
 }
 
-.membersGroup-2eiWxl {
-  margin-left: 60px;
-  background-color: var(--darkplus-bg);
-  color: var(--darkplus-sec);
-}
-
-.members-3WRCEx,
-.members-3WRCEx > div {
-  background-color: var(--darkplus-bg);
-}
 
 .container-YkUktl {
   height: 85px;
@@ -918,7 +877,7 @@ button[aria-label="Send a gift"] {
 }
 .botTagRegular-kpctgU {
   color: var(--darkplus-sec);
-  background-color: var(--darkplus-bg2);
+  background-color: #302f2f;
 }
 
 .field-21XZwa > div > div > div {
@@ -988,16 +947,12 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
-.theme-dark .activeButton-LRWFC_,
-.theme-dark .activeButton-LRWFC_:hover,
-.theme-light .activeButton-LRWFC_,
-.theme-light .activeButton-LRWFC_:hover {
+.theme-dark .activeButton-LRWFC_, .theme-dark .activeButton-LRWFC_:hover, .theme-light .activeButton-LRWFC_, .theme-light .activeButton-LRWFC_:hover {
   color: var(--darkplus-bg);
   background-color: var(--darkplus-sec);
 }
 
-.hasBanner-2IrYih .header-3OsQeK,
-.hasBanner-2IrYih .header-3OsQeK:hover {
+.hasBanner-2IrYih .header-3OsQeK, .hasBanner-2IrYih .header-3OsQeK:hover {
   background-color: var(--darkplus-bg);
 }
 
@@ -1012,7 +967,7 @@ button[aria-label="Send a gift"] {
 }
 
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
-  background-color: var(--darkplus-bg2);
+  background-color: var(--darkplus-bg2)
 }
 .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
   color: var(--darkplus-sec);
@@ -1056,13 +1011,13 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 .theme-dark .tab-2j5AEF.selected-2LAck8 {
-  background-color: var(--darkplus-bg2);
+  background-color: var(--darkplus-bg2)
 }
 .message-24k8JL {
-  background-color: var(--darkplus-bg2);
+  background-color: var(--darkplus-bg2)
 }
 .section-3G9aLW {
-  color: var(--darkplus-links);
+  color: var(--darkplus-links)
 }
 .colorStandard-21JIj7 {
   color: var(--darkplus-bg);
@@ -1074,8 +1029,7 @@ button[aria-label="Send a gift"] {
 .skip-2hTIXL {
   color: var(--darkplus-sec);
 }
-.grow-q77ONN,
-.sizeIcon-1-kvKI {
+.grow-q77ONN, .sizeIcon-1-kvKI {
   color: var(--darkplus-sec);
 }
 .input-2g-os5 {
@@ -1168,8 +1122,7 @@ button[aria-label="Send a gift"] {
 .header-1ULbqO {
   background-color: var(--darkplus-bg);
 }
-.titlePrimary-23rNQQ,
-.titleSecondary-3hcpuB {
+.titlePrimary-23rNQQ, .titleSecondary-3hcpuB {
   color: var(--darkplus-sec);
 }
 .inspector-2A2Chb {
@@ -1238,12 +1191,11 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
-.emptyTierImage-2bJjxU,
-.unlockTierCtaHeading-18Nq1u {
+.emptyTierImage-2bJjxU, .unlockTierCtaHeading-18Nq1u {
   color: var(--darkplus-sec);
 }
 
-.css-19bqh2r {
+.css-19bqh2r{
   color: var(--darkplus-sec);
 }
 .theme-dark .option-2KkUJO:after {
@@ -1254,9 +1206,7 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-bg);
 }
 
-.categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
-.categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku,
-.categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
+.categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku, .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku, .categoryItemDefaultCategory-3haEDq:hover .categoryIcon-2cYeku {
   color: var(--darkplus-sec);
 }
 
@@ -1279,8 +1229,7 @@ button[aria-label="Send a gift"] {
   border: var(--darkplus-sec);
 }
 
-.bottomInformationTextContainer-3xmddX,
-.stickerResults-cD_yeI {
+.bottomInformationTextContainer-3xmddX, .stickerResults-cD_yeI {
   background-color: var(--darkplus-bg2);
 }
 
@@ -1292,9 +1241,7 @@ button[aria-label="Send a gift"] {
   margin-left: -150px;
 }
 
-.theme-dark .searchOption-351dTI .filter-5YbOzJ,
-.theme-dark .searchOption-351dTI .answer-2fBfuP,
-.resultsGroup-1BPR25 .header-3A13BX {
+.theme-dark .searchOption-351dTI .filter-5YbOzJ, .theme-dark .searchOption-351dTI .answer-2fBfuP, .resultsGroup-1BPR25 .header-3A13BX {
   color: var(--darkplus-sec);
 }
 
@@ -1306,93 +1253,12 @@ button[aria-label="Send a gift"] {
   color: var(--darkplus-sec);
 }
 
-.username-3JLfHz,
-.discriminator-2m-MqL,
-.headerTagDiscriminatorNoNickname-dfcvHa {
+.username-3JLfHz, .discriminator-2m-MqL, .headerTagDiscriminatorNoNickname-dfcvHa {
   color: var(--darkplus-sec);
 }
 
-.peopleList-2VBrVI,
-.container-ZMc96U.themed-Hp1KC_,
-.peopleColumn-1wMU14,
-.scroller-WSmht3,
-.searchBar-3TnChZ,
-.activityPanel-9icbyU,
-.container-YkUktl,
-.scroller-kQBbkU {
-  background-color: var(--darkplus-bg);
-}
-
-.theme-dark .children-3xh0VB:after {
-  background: var(--darkplus-bg);
-}
-
-.icon-2xnN2Y,
-.title-17SveM,
-.tabBar-ra-EuL .item-3mHhwr,
-.brand-3g5E0C.item-3XjbnG:hover,
-.themed-2-lozF.item-3XjbnG:hover,
-.clickable-ZD7xvu .icon-2xnN2Y,
-.clickable-ZD7xvu:hover .icon-2xnN2Y:hover,
-.title-x4dI75,
-.linkButtonIcon-7rsZcu,
-.name-3Vmqxm,
-.username-Qpc78p,
-.text-MPIeXO,
-.discriminator-WV5K5s,
-.button-12Fmur,
-.button-12Fmur.enabled-9OeuTA:hover,
-.title-338goq,
-.hovered-20u3oh,
-.customStatus-1UAQAK {
+.button-2fCJ0o, .button-12Fmur {
   color: var(--darkplus-sec);
-}
-
-.input-2m5SfJ,
-.medium-2NClDM.iconLayout-3Bjizv {
-  background-color: var(--darkplus-sec);
-  border-radius: 10px;
-}
-
-.input-2m5SfJ::placeholder {
-  color: var(--darkplus-bg);
-}
-
-.icon-3CDcPB.visible-CwPfRb {
-  color: var(--darkplus-bg);
-}
-
-.actionButton-3-B2x- {
-  color: var(--darkplus-sec);
-  background-color: var(--darkplus-bg);
-}
-
-.actionButton-3-B2x-:hover {
-  color: var(--darkplus-bg);
-  background-color: var(--darkplus-sec);
-}
-
-.selected-1-Z6gm .layout-1qmrhw {
-  background-color: var(--darkplus-bg2);
-}
-
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
-  border-radius: 10px;
-}
-
-.members-3WRCEx,
-.members-3WRCEx > div {
-  background-color: var(--darkplus-bg);
-}
-
-.button-2fCJ0o {
-  color: var(--darkplus-sec);
-}
-
-.container-2o3qEW {
-  background-color: var(--darkplus-bg);
 }
 
 .attachButtonPlus-3IYelE {
@@ -1402,6 +1268,7 @@ button[aria-label="Send a gift"] {
 .menu-1QACrS, .colorDefault-CDqZdO { 
   border-radius: 15px; 
 }
+
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--darkplus-sec) !important;
